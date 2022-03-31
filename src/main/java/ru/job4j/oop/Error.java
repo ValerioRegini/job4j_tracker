@@ -4,9 +4,9 @@ import java.sql.SQLOutput;
 
 public class Error {
 
-    boolean active;
-    int status;
-    String message;
+    private boolean active;
+    private int status;
+    private String message;
 
     public Error() {
     }
